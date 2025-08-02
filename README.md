@@ -305,3 +305,7 @@ For questions or issues:
 ---
 
 **Built with ❤️ for intern fundraising success**
+
+
+<img width="1470" height="833" alt="Screenshot 2025-08-02 at 4 10 42 PM" src="https://github.com/user-attachments/assets/f8bf591c-bfa4-4d5a-8721-6e62158ef877" />
+
