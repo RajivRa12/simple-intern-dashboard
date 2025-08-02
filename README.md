@@ -308,4 +308,7 @@ For questions or issues:
 
 
 <img width="1470" height="833" alt="Screenshot 2025-08-02 at 4 10 42 PM" src="https://github.com/user-attachments/assets/f8bf591c-bfa4-4d5a-8721-6e62158ef877" />
+<img width="1468" height="833" alt="Screenshot 2025-08-02 at 4 11 06 PM" src="https://github.com/user-attachments/assets/7253848e-6033-4729-8984-3828bc466c86" />
+<img width="1470" height="835" alt="Screenshot 2025-08-02 at 4 10 52 PM" src="https://github.com/user-attachments/assets/d2fcfc2e-82de-4fe6-9683-54eb57653678" />
+
 
