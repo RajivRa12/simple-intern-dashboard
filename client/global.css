@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /**
+   * Intern Portal - Modern Brand Theme
+   * Featuring vibrant gradients and contemporary design
+   */
+  :root {
+    --background: 251 100% 99%;
+    --foreground: 225 15% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 225 15% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 225 15% 15%;
+
+    --primary: 262 71% 58%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 262 15% 95%;
+    --secondary-foreground: 262 30% 25%;
+
+    --muted: 251 15% 96%;
+    --muted-foreground: 225 15% 45%;
+
+    --accent: 262 15% 95%;
+    --accent-foreground: 262 30% 25%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 262 15% 90%;
+    --input: 262 15% 90%;
+    --ring: 262 71% 58%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 262 30% 98%;
+    --sidebar-foreground: 225 15% 25%;
+    --sidebar-primary: 262 71% 58%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 262 15% 92%;
+    --sidebar-accent-foreground: 262 30% 25%;
+    --sidebar-border: 262 15% 87%;
+    --sidebar-ring: 262 71% 58%;
+
+    /* Intern Portal Brand Colors */
+    --brand-50: 262 100% 98%;
+    --brand-100: 262 90% 95%;
+    --brand-200: 262 85% 88%;
+    --brand-300: 262 80% 78%;
+    --brand-400: 262 75% 68%;
+    --brand-500: 262 71% 58%;
+    --brand-600: 262 70% 48%;
+    --brand-700: 262 65% 38%;
+    --brand-800: 262 60% 28%;
+    --brand-900: 262 55% 18%;
+
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+  }
+
+  .dark {
+    --background: 225 25% 8%;
+    --foreground: 262 15% 90%;
+
+    --card: 225 20% 12%;
+    --card-foreground: 262 15% 90%;
+
+    --popover: 225 20% 12%;
+    --popover-foreground: 262 15% 90%;
+
+    --primary: 262 71% 58%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 225 20% 15%;
+    --secondary-foreground: 262 15% 80%;
+
+    --muted: 225 20% 15%;
+    --muted-foreground: 262 15% 60%;
+
+    --accent: 225 20% 15%;
+    --accent-foreground: 262 15% 80%;
+
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 225 20% 18%;
+    --input: 225 20% 18%;
+    --ring: 262 71% 58%;
+
+    --sidebar-background: 225 25% 10%;
+    --sidebar-foreground: 262 15% 85%;
+    --sidebar-primary: 262 71% 58%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 225 20% 15%;
+    --sidebar-accent-foreground: 262 15% 85%;
+    --sidebar-border: 225 20% 18%;
+    --sidebar-ring: 262 71% 58%;
+
+    /* Dark mode brand colors */
+    --brand-50: 262 30% 15%;
+    --brand-100: 262 35% 20%;
+    --brand-200: 262 40% 25%;
+    --brand-300: 262 45% 30%;
+    --brand-400: 262 50% 35%;
+    --brand-500: 262 71% 58%;
+    --brand-600: 262 75% 65%;
+    --brand-700: 262 80% 72%;
+    --brand-800: 262 85% 80%;
+    --brand-900: 262 90% 88%;
+
+    --success: 142 70% 45%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 85% 55%;
+    --warning-foreground: 0 0% 100%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
